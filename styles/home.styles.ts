@@ -1,10 +1,8 @@
-import {Theme} from "@mui/material";
-import {makeStyles} from "@mui/styles";
+import { makeStyles } from "@mui/styles"
+import {Theme} from "@mui/material"
 
-const useHomeStyles = makeStyles((theme: Theme) => ({
-    root: {
-
-    }
+const useHomeStyles = makeStyles(() => ({
+    root: {},
 }))
 
-export default useHomeStyles;
+export default useHomeStyles
