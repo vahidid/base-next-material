@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={classes.root}>
-        <Button>Hello World</Button>
+        <Button variant={"contained"} color="secondary">Hello World</Button>
       </main>
     </div>
   )
